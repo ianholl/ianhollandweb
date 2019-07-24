@@ -7,3 +7,17 @@ p, a {
   font-size: 70%;
   color: rgba(220, 220, 220);
 }
+
+.footerIcons {
+  position: fixed;
+  bottom: 20px;
+  right: 60px;
+}
+
+.footerIcons .fa-icon {
+  color: rgb(157, 157, 157);
+  font-size: 60px;
+  margin-left: 40px;
+} :hover {
+  color: white;
+}
