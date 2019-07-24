@@ -1,0 +1,9 @@
+p, a {
+  font-size: 110%;
+}
+
+#typed {
+  font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
+  font-size: 70%;
+  color: rgba(220, 220, 220);
+}
