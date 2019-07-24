@@ -18,6 +18,7 @@ p, a {
   color: rgb(157, 157, 157);
   font-size: 60px;
   margin-left: 40px;
-} :hover {
+} 
+.footerIcons .fa-icon:hover {
   color: white;
 }
