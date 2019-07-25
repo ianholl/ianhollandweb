@@ -31,7 +31,6 @@ if(this.isDeleting) {
   typeSpeed /= 3;
 }
 
-
 // Stop at end
  if(this.txt === "Web Developer") {
   function myFunction() {
