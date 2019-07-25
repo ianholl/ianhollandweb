@@ -22,3 +22,7 @@ p, a {
 .footerIcons .fa-icon:hover {
   color: white;
 }
+
+.txt-type > .cursor {
+  border-right: 0.2rem solid #777;
+}

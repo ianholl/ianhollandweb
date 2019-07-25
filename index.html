@@ -13,7 +13,7 @@
   <meta name="msapplication-tap-highlight" content="no">
   
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
-  <link href="./assets/favicon.ico" rel="icon">
+  <!-- <link href="./assets/favicon.ico" rel="icon"> -->
 
   <title>Ian Holland Web</title>  
 
@@ -56,13 +56,9 @@
           <div class="hero-full-wrapper">
             <div class="text-content">
               <h1>Ian Holland<br>
-                <span id="typed-strings">
-                  <span>Mechanical Engineer</span>
-                  <span>Web Developer</span>
-                  <span>Software Developer</span>
-                  <!-- <span>Software Developer</span> -->
-                </span>
-                <span id="typed"></span>
+         
+                <div class="txt-type" data-wait="3000" data-words='["Mechanical Engineer", "Web Developer"]'></div>
+         
               </h1>
             </div>
           </div>
@@ -80,14 +76,17 @@
     </a>
   </footer>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     type();
-     movingBackgroundImage();
-  });
-</script>
+  <!-- <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      type();
+      movingBackgroundImage();
+    });
+  </script> -->
 
 
-<script type="text/javascript" src="./main.js"></script></body>
+<script type="text/javascript" src="./main.js"></script>
+<script type="text/javascript" src="./script.js"></script>
+
+</body>
 
 </html>
